@@ -29,7 +29,7 @@ This simulates challenges similar to **satellite or spacecraft landing**, where 
 fuel_penalty = 0.1 * np.sum(np.square(action))
 reward -= fuel_penalty
 
-Evaluation Metrics
+Evaluation Metrices
 
 We evaluate agents using three metrics:
 Average Episode Reward – overall performance of the policy.
